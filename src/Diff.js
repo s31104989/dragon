@@ -172,11 +172,11 @@ class MyDiff extends Component {
             switch (e.flg) {
                 case onp.flg.TEXT2:
                     // console.log( "+" + text2.substring(e.s,e.e+1) );
-                    output_html_right += ('<span class="green">' + text2.substring(e.s, e.e + 1) + '</span>');
+                    output_html_right += ('<span class="plus">' + text2.substring(e.s, e.e + 1) + '</span>');
                     return;
                 case onp.flg.TEXT1:
                     // console.log( "-" + text1.substring(e.s,e.e+1) );
-                    output_html_left += ('<span class="red">' + text1.substring(e.s, e.e + 1) + '</span>');
+                    output_html_left += ('<span class="minus">' + text1.substring(e.s, e.e + 1) + '</span>');
                     return
                 case onp.flg.COMMON:
                     // console.log( " " + commonText.substring(e.s,e.e+1) );

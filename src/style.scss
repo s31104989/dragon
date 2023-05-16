@@ -17,10 +17,9 @@
 	}
 	.container {
 		display: flex;
-		justify-content: space-between;
-		padding: 0 2.5%;
+		justify-content: space-around;
 		.leftSide, .rightSide {
-			width: 48.5%;
+			width: 48.0%;
 			box-sizing: border-box;
 			margin-top: 5px;
 		}

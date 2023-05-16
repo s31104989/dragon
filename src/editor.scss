@@ -1,0 +1,17 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-dragon {
+	border: 1px dotted #f00;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 2.0%;
+	padding-right: 2.0%;
+	padding-top: 5px;
+	.oldCode, .newCode {
+		width: 48.5%;
+	}
+}

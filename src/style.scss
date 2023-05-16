@@ -1,0 +1,37 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-dragon {
+	background-color: #21759b;
+	color: #fff;
+	padding: 2px;
+	.red {
+		background-color: rgb(255 83 83 / 80%);
+	}
+	.green {
+		background-color: rgb(53 194 75 / 80%);
+	}
+	.container {
+		display: flex;
+		justify-content: space-between;
+		padding: 0 2.5%;
+		.leftSide, .rightSide {
+			width: 48.5%;
+			box-sizing: border-box;
+			margin-top: 5px;
+		}
+		.leftSide .leftCode, .rightSide .rightCode {
+			background-color: #125674;
+			padding: 8px;
+			margin-top: 5px;
+			white-space: pre-wrap;
+		}
+		.leftSide .header, .rightSide .header {
+			text-align: center;
+		}
+	}
+}

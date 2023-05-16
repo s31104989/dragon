@@ -147,6 +147,10 @@ class MyDiff extends Component {
                 text1 += '&gt';
             } else if (element === '"') {
                 text1 += '&quot;';
+            } else if (element === ' ') {
+                text1 += '&nbsp;';
+            } else if (element === '&') {
+                text1 += '&amp;';
             } else {
                 text1 += element;
             }
@@ -159,6 +163,10 @@ class MyDiff extends Component {
                 text2 += '&gt';
             } else if (element === '"') {
                 text2 += '&quot;';
+            } else if (element === ' ') {
+                text2 += '&nbsp;';
+            } else if (element === '&') {
+                text2 += '&amp;';
             } else {
                 text2 += element;
             }
@@ -189,11 +197,11 @@ class MyDiff extends Component {
             <div className='container'>
                 <div className='leftSide'>
                     <div className='dragonHeader'>Old Text</div>
-                    <div className='leftCode'>{parse(output_html_left)}</div>
+                    <p className='leftCode'>{parse(output_html_left)}</p>
                 </div>
                 <div className='rightSide'>
                     <div className='dragonHeader'>New Text</div>
-                    <div className='rightCode'>{parse(output_html_right)}</div>
+                    <p className='rightCode'>{parse(output_html_right)}</p>
                 </div>
             </div>
 

@@ -6,7 +6,7 @@
 	"title": "Dragon",
 	"category": "widgets",
 	"icon": "smiley",
-	"description": "Example block scaffolded with Create Block tool.",
+	"description": "The WordPress plugin that colors the difference between two texts.",
 	"supports": {
 		"html": false
 	},

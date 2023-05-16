@@ -188,11 +188,11 @@ class MyDiff extends Component {
         return (
             <div className='container'>
                 <div className='leftSide'>
-                    <div className='header'>Old Text</div>
+                    <div className='dragonHeader'>Old Text</div>
                     <pre className='leftCode'>{parse(output_html_left)}</pre>
                 </div>
                 <div className='rightSide'>
-                    <div className='header'>New Text</div>
+                    <div className='dragonHeader'>New Text</div>
                     <pre className='rightCode'>{parse(output_html_right)}</pre>
                 </div>
             </div>

@@ -189,11 +189,11 @@ class MyDiff extends Component {
             <div className='container'>
                 <div className='leftSide'>
                     <div className='dragonHeader'>Old Text</div>
-                    <pre className='leftCode'>{parse(output_html_left)}</pre>
+                    <div className='leftCode'>{parse(output_html_left)}</div>
                 </div>
                 <div className='rightSide'>
                     <div className='dragonHeader'>New Text</div>
-                    <pre className='rightCode'>{parse(output_html_right)}</pre>
+                    <div className='rightCode'>{parse(output_html_right)}</div>
                 </div>
             </div>
 

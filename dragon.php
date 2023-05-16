@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Dragon
- * Description:       Example block scaffolded with Create Block tool.
+ * Description:       The WordPress plugin Dragon colors the difference between two texts.
  * Requires at least: 6.1
  * Requires PHP:      7.0
  * Version:           0.1.0
